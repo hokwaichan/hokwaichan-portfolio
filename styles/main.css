@@ -1042,3 +1042,40 @@ footer {
   width: 100%;
   box-sizing: border-box;
 }
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.feature-item {
+  padding: 1.25rem;
+  background-color: var(--section-background);
+  border-radius: var(--border-radius);
+  border-left: 4px solid var(--secondary-color);
+}
+
+.feature-item h4 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.feature-item p {
+  color: var(--text-color);
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .feature-item {
+    padding: 1rem;
+  }
+
+  .feature-item h4 {
+    font-size: 1.1rem;
+  }
+}

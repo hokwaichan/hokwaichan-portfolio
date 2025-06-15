@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Semantic Segmentation for Mars Terrain Analysis - Hok Wai Chan
+    </title>
+    <link rel="stylesheet" href="../../../styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-container">
+      <nav>
+        <ul>
+          <li><a href="../../../index.html#about">About</a></li>
+          <li><a href="../../../projects.html">Projects</a></li>
+          <li><a href="../../../papers.html">Papers</a></li>
+          <li>
+            <a href="../../../content/resume/Resume.pdf" target="_blank"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="project-detail">
+        <a href="../../../projects.html" class="back-button">
+          <i class="fas fa-arrow-left"></i> Back to Projects
+        </a>
+
+        <h2>Semantic Segmentation for Mars Terrain Analysis</h2>
+        <p class="project-meta">
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Semantic Segmentation</span>
+          <span class="tag">3D Reconstruction</span>
+        </p>
+
+        <div class="project-content">
+          <div class="project-images">
+            <div class="image-container">
+              <h4>DeepLabV3 Model Performance on Mars Terrain</h4>
+              <img
+                src="images/model-example.png"
+                alt="Model Example"
+                class="featured-image"
+              />
+              <p class="image-caption">
+                Example of semantic segmentation results showing different
+                terrain classifications
+              </p>
+            </div>
+            <div class="image-container">
+              <h4>3D Reconstruction Using COLMAP</h4>
+              <img
+                src="images/colmap-example.png"
+                alt="COLMAP Example"
+                class="featured-image"
+              />
+              <p class="image-caption">
+                3D reconstruction of Mars terrain using COLMAP for enhanced
+                terrain analysis
+              </p>
+            </div>
+          </div>
+
+          <h3>About the Project</h3>
+          <p>
+            This research project focuses on developing advanced perception
+            systems for autonomous planetary exploration through semantic
+            segmentation of Mars terrain. The goal was to improve terrain
+            classification and analysis capabilities for Mars rovers using deep
+            learning techniques. By implementing state-of-the-art computer
+            vision models and 3D reconstruction techniques, we aimed to create a
+            robust system for analyzing and understanding Martian terrain
+            features.
+          </p>
+
+          <h3>What I Learned</h3>
+          <p>
+            Through this project, I gained extensive experience in computer
+            vision and deep learning applications. I developed a deep
+            understanding of semantic segmentation models and their practical
+            applications in analyzing complex terrain features. The project
+            provided hands-on experience with 3D reconstruction techniques using
+            COLMAP, allowing me to understand how to create detailed terrain
+            models from 2D images. I also learned about synthetic data
+            generation using Infinigen, which proved crucial for augmenting our
+            training dataset with realistic Mars-like terrains.
+          </p>
+          <p>
+            The implementation of DeepLabV3 gave me practical experience in
+            fine-tuning deep learning models for specific use cases. I learned
+            to handle challenges unique to planetary terrain analysis, such as
+            dealing with low contrast images and similar textures across
+            different surface elements. This project significantly enhanced my
+            understanding of how to apply computer vision techniques to
+            real-world problems in space exploration.
+          </p>
+
+          <h3>Tools & Technologies</h3>
+          <p>
+            The project utilized a comprehensive set of tools and technologies.
+            DeepLabV3 served as our primary model for semantic segmentation,
+            chosen for its effectiveness in handling complex visual tasks. We
+            implemented COLMAP for 3D reconstruction, which helped us better
+            understand terrain structures from 2D images. For data augmentation,
+            we used Infinigen, a procedural generator that created synthetic
+            training data with realistic Mars-like features.
+          </p>
+          <p>
+            The S5Mars dataset, containing 6,000 images with ground truth masks,
+            formed the foundation of our training data. We implemented the
+            project using Python as our primary programming language and PyTorch
+            as our deep learning framework. This combination of tools allowed us
+            to create a robust and efficient system for Mars terrain analysis.
+          </p>
+
+          <h3>Key Achievements</h3>
+          <p>
+            The project achieved several significant milestones. We successfully
+            implemented a semantic segmentation system that achieved 74%
+            validation accuracy on Mars terrain classification, a promising
+            result given the challenges of the task. The system demonstrated
+            robust performance in identifying various terrain features, from
+            rocks and sand to more complex elements like ridges and holes.
+          </p>
+          <p>
+            We successfully evaluated and compared multiple state-of-the-art
+            models, ultimately developing a comprehensive pipeline for Mars
+            terrain analysis. The system proved capable of handling complex
+            terrain features and provided valuable insights for future planetary
+            exploration missions. These achievements demonstrate the potential
+            of deep learning techniques in advancing autonomous planetary
+            exploration capabilities.
+          </p>
+
+          <div class="project-links" style="margin-top: 2rem">
+            <a
+              href="https://github.com/hokwaichan/Mars-DeepLabV3"
+              target="_blank"
+              class="button"
+            >
+              <i class="fab fa-github"></i> View Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../../../js/main.js"></script>
+  </body>
+</html>

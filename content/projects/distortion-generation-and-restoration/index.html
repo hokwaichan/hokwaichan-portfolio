@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Distortion Generation and Restoration - Hok Wai Chan</title>
+    <link rel="stylesheet" href="../../../styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-container">
+      <nav>
+        <ul>
+          <li><a href="../../../index.html#about">About</a></li>
+          <li><a href="../../../projects.html">Projects</a></li>
+          <li><a href="../../../papers.html">Papers</a></li>
+          <li>
+            <a href="../../../content/resume/Resume.pdf" target="_blank"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="project-detail">
+        <a href="../../../projects.html" class="back-button">
+          <i class="fas fa-arrow-left"></i> Back to Projects
+        </a>
+
+        <h2>Distortion Generation and Restoration</h2>
+        <p class="project-meta">
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Image Processing</span>
+          <span class="tag">OpenCV</span>
+        </p>
+
+        <div class="project-content">
+          <div class="project-images">
+            <div class="image-container">
+              <h4>Example 1: Original vs Distorted Image</h4>
+              <img
+                src="images/example1.png"
+                alt="Distortion Example 1"
+                class="featured-image"
+              />
+              <p class="image-caption">
+                Comparison of original image and its distorted version using our
+                generation techniques
+              </p>
+            </div>
+            <div class="image-container">
+              <h4>Example 2: Original vs Distorted Image</h4>
+              <img
+                src="images/example2.png"
+                alt="Distortion Example 2"
+                class="featured-image"
+              />
+              <p class="image-caption">
+                Another example showing the effect of our distortion generation
+                on a different image
+              </p>
+            </div>
+            <div class="image-container">
+              <h4>Example 3: Original vs Distorted Image</h4>
+              <img
+                src="images/example3.png"
+                alt="Distortion Example 3"
+                class="featured-image"
+              />
+              <p class="image-caption">
+                Final example demonstrating the range of distortions our system
+                can generate
+              </p>
+            </div>
+          </div>
+
+          <h3>About the Project</h3>
+          <p>
+            This project focused on developing a comprehensive solution for
+            complex image distortion restoration, contributing to an ICIP
+            conference publication. The work involved creating a large-scale
+            dataset and implementing a neural model capable of predicting and
+            correcting various types of image distortions. The project aimed to
+            advance the field of image restoration by providing both the tools
+            for generating synthetic distortions and the means to restore them.
+          </p>
+
+          <h3>What I Learned</h3>
+          <p>
+            Through this project, I gained extensive experience in image
+            processing and deep learning techniques. I developed expertise in
+            implementing various distortion algorithms, including radial and
+            vortex distortions, as well as smooth random field generation. The
+            project enhanced my understanding of UV mapping and displacement
+            fields, crucial concepts in image processing and computer vision.
+          </p>
+          <p>
+            Working with OpenCV and Perlin noise for distortion generation gave
+            me practical experience in creating complex image transformations. I
+            also learned about the challenges and solutions in training
+            regression models for image restoration tasks, particularly in
+            handling different types of distortions and evaluating model
+            performance using various metrics.
+          </p>
+
+          <h3>Tools & Technologies</h3>
+          <p>
+            The project utilized a sophisticated stack of tools and
+            technologies. OpenCV served as the primary library for implementing
+            distortion techniques and image processing operations. We developed
+            custom algorithms for generating radial and vortex distortions, as
+            well as smooth random fields using Perlin noise. The UV displacement
+            maps were carefully designed to capture the complex nature of image
+            distortions.
+          </p>
+          <p>
+            For the neural network implementation, we used a ResNet-based
+            architecture (UVNet) specifically designed for regression tasks. The
+            model was trained using supervised learning techniques, with the
+            generated UV displacement maps serving as ground truth data. We
+            implemented comprehensive evaluation metrics including L1 loss, MSE,
+            and PSNR to assess model performance.
+          </p>
+
+          <h3>Key Achievements</h3>
+          <p>
+            The project successfully created a large-scale dataset for complex
+            image distortion restoration, which has been prepared for internal
+            team use and ICIP conference submission. The UVNet model
+            demonstrated promising results in predicting distortion fields from
+            RGB input images, showing the potential for practical applications
+            in image restoration.
+          </p>
+          <p>
+            The automated distortion pipeline we developed streamlined the
+            process of generating synthetic datasets, making it easier for the
+            team to create and experiment with different types of distortions.
+            The project's contributions to the field of image restoration have
+            been recognized through its acceptance for presentation at the ICIP
+            conference.
+          </p>
+
+          <div class="project-links" style="margin-top: 2rem">
+            <a
+              href="https://github.com/hokwaichan/Distortion-Generation-and-Restoration"
+              target="_blank"
+              class="button"
+            >
+              <i class="fab fa-github"></i> View Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../../../js/main.js"></script>
+  </body>
+</html>
