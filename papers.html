@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hok Wai Chan - Research Papers</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-container">
+      <nav>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="papers.html">Papers</a></li>
+          <li>
+            <a href="content/resume/Resume.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="papers" class="papers-section">
+        <h2>Research Papers</h2>
+        <div class="papers-grid animate-on-scroll">
+          <article class="paper-card">
+            <h3>Unit Testing Practices in Jupyter Notebooks</h3>
+            <p class="authors">
+              Hok Wai Chan, Jingyi He, Jesse Abdul, Tevin Takata
+            </p>
+            <p class="paper-meta">Research Paper</p>
+            <p class="publication-date">Published: January 2024</p>
+            <div class="paper-content">
+              <p class="abstract">
+                An investigation into testing practices and methodologies for
+                Jupyter Notebooks, exploring ways to improve code quality and
+                reliability in data science workflows.
+              </p>
+            </div>
+            <div class="tags">
+              <span class="tag">Testing</span>
+              <span class="tag">Jupyter</span>
+              <span class="tag">Data Science</span>
+            </div>
+            <div class="paper-links">
+              <a
+                href="content/papers/Unit Testing Practices in Jupyter Notebooks.pdf"
+                class="button"
+                ><i class="fas fa-file-pdf"></i> Read Paper</a
+              >
+              <a href="https://github.com/notebook-unit-testing" class="button"
+                ><i class="fab fa-github"></i> Repo</a
+              >
+            </div>
+          </article>
+
+          <article class="paper-card">
+            <h3>Semantic Segmentation for Mars Terrain Analysis</h3>
+            <p class="authors">Hok Wai Chan</p>
+            <p class="paper-meta">Research Project</p>
+            <p class="publication-date">Published: May 2024</p>
+            <div class="paper-content">
+              <p class="abstract">
+                A comprehensive deep learning pipeline for object classification
+                and camera alignment on Mars rover imagery. The project
+                implements advanced semantic segmentation models including
+                DeepLabv3, LRASPP, and SAM for cross-domain object detection.
+                Key contributions include the development of custom data
+                loaders, unified label systems, and extensive data cleaning and
+                augmentation pipelines. The work also incorporates SLAM
+                techniques for 3D reconstruction and utilizes Infinigen for
+                synthetic data generation to enhance model training.
+              </p>
+            </div>
+            <div class="tags">
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Semantic Segmentation</span>
+              <span class="tag">3D Reconstruction</span>
+              <span class="tag">SLAM</span>
+            </div>
+            <div class="paper-links">
+              <a
+                href="content/papers/Semantic Segmentation for Mars Terrain Analysis.pdf"
+                class="button"
+              >
+                <i class="fas fa-file-pdf"></i> Read Paper
+              </a>
+              <a
+                href="https://github.com/hokwaichan/Mars-DeepLabV3"
+                class="button"
+              >
+                <i class="fab fa-github"></i> Code
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
